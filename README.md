@@ -33,4 +33,24 @@
 9.  **[CSS Positioning](https://www.w3schools.com/css/css_positioning.asp)**
 
 ## Assigments:
+
+1. Read this article: https://css-tricks.com/almanac/properties/p/position/
+2. Read this article: https://css-tricks.com/all-about-floats/
+3. **Complete below showed section from - [CSS Exercises](https://www.w3schools.com/css/css_exercises.asp).**
+```
+CSS Text
+CSS Font
+CSS Display/Visibility
+CSS Positioning
+CSS Overflow
+CSS Align
+CSS Text Effects
+CSS Web Fonts
+```
+
 ## Some usefull resources:
+
+- https://www.youtube.com/watch?v=2tC4PIlEz_o&ab_channel=SteveGriffith
+- https://jolly-kalam-23776e.netlify.app/parallaxsite/
+- https://www.myfonts.com/WhatTheFont/
+- https://transfonter.org/
