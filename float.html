@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parallax</title>
+	<style>
+		ul {
+			background-color: bisque;
+			border: 1px solid red;
+			list-style: none;
+			margin: 1rem auto;
+		}
+
+		li {
+			float: left;
+			margin: 1rem;
+		}
+
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: block;
+		}
+
+		.boxes div {
+			width: 200px;
+			height: 200px;
+			background: tomato;
+			float: left;
+		}
+	</style>
+</head>
+
+<body>
+	<ul class="clearfix">
+		<li><img src="./img/1.jpg" alt="" width="300px"></li>
+		<li><img src="./img/2.jpg" alt="" width="300px"></li>
+		<li><img src="./img/3.jpg" alt="" width="300px"></li>
+		<li><img src="./img/4.jpg" alt="" width="300px"></li>
+	</ul>
+
+	<div class="boxes clearfix">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa a debitis? Quidem, deleniti ducimus praesentium assumenda ad ratione sit! Eius neque delectus natus quasi aspernatur at mollitia similique harum!</p>
+	<h1>lorem</h1>
+	<p>lorem</p>
+</body>
+
+</html>

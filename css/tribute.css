@@ -1,0 +1,43 @@
+body {
+	background-color: #eeeeee;
+	text-align: center;
+	margin: 60px;
+}
+
+h1 {
+	font-size: 61px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 41px;
+}
+
+h3 {
+	font-size: 31px;
+}
+
+p {
+	border: 1px solid red;
+}
+
+.image-wrapper {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+.image-wrapper img {
+	width: 300px;
+	height: 450px;
+	border-radius: 500px / 450px;
+	object-fit: cover;
+}
+
+.image-wrapper .badge {
+	padding: 20px;
+	background-color: yellow;
+}
+
+section {
+	text-align: left;
+}
